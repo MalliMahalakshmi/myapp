@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Connect to MongoDB
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/myapp';
+const mongoURI = process.env.API_URL || 'mongodb://localhost:27017/myapp';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, {

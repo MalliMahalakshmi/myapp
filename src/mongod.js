@@ -5,7 +5,7 @@ require('dotenv').config();
 const uri = process.env.MONGODB_URI;
 
 // Connect to MongoDB
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/myapp';
+const mongoURI = process.env.API_URI || 'mongodb://localhost:27017/myapp';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, {
